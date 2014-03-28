@@ -1,0 +1,5 @@
+<RCC>
+    <qresource prefix="/plugins/unique_values_saver" >
+        <file>icon.png</file>
+    </qresource>
+</RCC>

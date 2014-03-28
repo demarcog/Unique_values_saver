@@ -1,0 +1,38 @@
+# This file contains metadata for your plugin. Beginning
+# with version 1.8 this is the preferred way to supply information about a
+# plugin. The current method of embedding metadata in __init__.py will
+# be supported until version 2.0
+
+# This file should be included when you package your plugin.
+
+# Mandatory items:
+
+
+[general]
+name=Unique_values_saver
+qgisMinimumVersion=2.0
+description=It grabs unique values froma a vector layer and saves all the features corresponding to each unique value as a new shapefile with geomentry type and attributes coming from source vector file.
+version=0.1
+author=Giuseppe De Marco Pienocampo
+email=demarco.giuseppe@gmail.com
+
+# end of mandatory metadata
+
+# Optional items:
+
+# Uncomment the following line and add your changelog entries:
+# changelog=
+
+# tags are comma separated with spaces allowed
+tags=shapefile, vector
+
+homepage=http://www.pienocampo.it/pyqgis2
+tracker=http://hub.qgis.org/projects/uniquevaluessaver01/issues
+repository=https://github.com/demarcog/Unique_values_saver.git
+icon=icon.png
+# experimental flag
+experimental=True
+
+# deprecated flag (applies to the whole plugin, not just a single version
+deprecated=False
+
